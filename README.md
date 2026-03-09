@@ -1,17 +1,14 @@
-# Experiment-5-Creation-of-two-datacenters-with-one-host-each-and-run-two-cloudlets-on-them.-
-
- 
----
+ #  EXPERIMENT 7 CloudSim Multi-Datacenter Simulation
 
 ## Overview
-This project demonstrates a CloudSim 3.0.3 simulation where two users submit cloudlets that are executed across two separate datacenters. Each datacenter contains one host, and tasks are scheduled through a broker that distributes workloads to virtual machines.
+This project demonstrates a **CloudSim 3.0.3 simulation** where two users submit cloudlets that are executed across **two separate datacenters**. Each datacenter contains one host, and tasks are scheduled through a broker that distributes workloads to virtual machines.
 
-This experiment illustrates multi-datacenter architecture, user-level task scheduling, and distributed cloud execution behavior.
+This experiment illustrates **multi-datacenter architecture, user-level task scheduling, and distributed cloud execution behavior**.
 
 ---
 
 ## Aim
-To create two datacenters with one host each and execute cloudlets from two users to analyze distributed execution behavior.
+To create **two datacenters with one host each** and execute cloudlets from **two users** to analyze distributed execution behavior.
 
 ---
 
@@ -74,8 +71,6 @@ To create two datacenters with one host each and execute cloudlets from two user
 | PEs | 1 |
 
 ---
- 
----
 
 ## Algorithm
 1. Initialize CloudSim library  
@@ -91,32 +86,19 @@ To create two datacenters with one host each and execute cloudlets from two user
 
 ---
 
-## Execution Time Formula
-Execution Time = Cloudlet Length / VM MIPS
+ ## Program flow 
 
-## Program 
-
+ <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/fdb0238c-1ae5-41ff-9648-321aac189b36" />
 
 
- 
+## Program
 
-## Sample Output
-========== RESULT ==========
-Cloudlet 0 | Length: 20000 | VM: 0 | Datacenter: 2 | Time: 40.0
-Cloudlet 1 | Length: 40000 | VM: 1 | Datacenter: 3 | Time: 80.0
-Cloudlet 2 | Length: 60000 | VM: 0 | Datacenter: 2 | Time: 120.0
-Cloudlet 3 | Length: 80000 | VM: 1 | Datacenter: 3 | Time: 160.0
+
+ ## Output 
 
 
 
 
+ Result
 
----
-
-## Result
-The simulation successfully executed tasks submitted by multiple users across two datacenters. Cloudlets were scheduled based on available resources and executed accordingly.
-
----
-
-## Conclusion
-This experiment demonstrates that CloudSim effectively models distributed cloud environments. It shows how workloads are handled across multiple datacenters and validates distributed task execution concepts used in real cloud infrastructure.
+The simulation successfully executed tasks submitted by multiple users across two datacenters. Cloudlets were scheduled based on available resources and virtual machine allocation and executed accordingly.
